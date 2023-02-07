@@ -1,5 +1,5 @@
 all_price = 0
-ticket_quantity = int(input('Введите цифрами кол-во билетов: '))
+ticket_quantity = int(input('Введите цифрами количество билетов: '))
 for i in range(ticket_quantity):
     i += 1
     age_for_ticket = int(input(f'Введите цифрами возраст для {i} билета: '))
